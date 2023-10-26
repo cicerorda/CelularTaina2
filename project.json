@@ -1,6 +1,5 @@
 {
   "name": "CorrecaoTabelaCelularTaina2",
-  "projectId": "97afcb20-ac87-47a7-8273-fdf851250994",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -15,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.10.3.0",
-  "projectVersion": "1.0.39",
+  "projectVersion": "1.0.44",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -23,7 +22,6 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
-    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -45,8 +43,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false,
-    "saveToCloud": false
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
