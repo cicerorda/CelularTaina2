@@ -10,7 +10,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1240,1711</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1335,11074</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>GetNumberNewcon_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="68">
@@ -120,7 +120,7 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GetNumberNewcon" sap:VirtualizedContainerService.HintSize="604,1646" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GetNumberNewcon" sap:VirtualizedContainerService.HintSize="1345,10849" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Browser" Name="Edge" />
     </Sequence.Variables>
@@ -129,8 +129,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="542,142" sap2010:WorkflowViewState.IdRef="KillProcess_3" ProcessName="msedge.exe" />
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="542,1160" sap2010:WorkflowViewState.IdRef="TryCatch_15">
+    <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="1283,142" sap2010:WorkflowViewState.IdRef="KillProcess_3" ProcessName="msedge.exe" />
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1283,10363" sap2010:WorkflowViewState.IdRef="TryCatch_15">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -138,19 +138,19 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" sap2010:Annotation.AnnotationText="Pegar o numero no sistema" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="1245,9966" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" UiBrowser="[edge]" Url="https://consorcio.sicredi.com.br/frmMain.aspx">
+        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" sap2010:Annotation.AnnotationText="Pegar o numero no sistema" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="1245,10126" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" UiBrowser="[edge]" Url="https://consorcio.sicredi.com.br/frmMain.aspx">
           <ui:OpenBrowser.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1211,9824" sap2010:WorkflowViewState.IdRef="Sequence_11">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1211,9984" sap2010:WorkflowViewState.IdRef="Sequence_11">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1149,215" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1149,375" sap2010:WorkflowViewState.IdRef="TryCatch_3">
                   <TryCatch.Try>
                     <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  ctl00_img_Atendi...'" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="Click_15" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                       <ui:Click.CursorPosition>
@@ -173,7 +173,7 @@
                     </ui:Click>
                   </TryCatch.Try>
                   <TryCatch.Catches>
-                    <Catch x:TypeArguments="ui:SelectorNotFoundException" sap:VirtualizedContainerService.HintSize="400,21" sap2010:WorkflowViewState.IdRef="Catch`1_3">
+                    <Catch x:TypeArguments="ui:SelectorNotFoundException" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_3">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -184,13 +184,13 @@
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="ui:SelectorNotFoundException" Name="exception" />
                         </ActivityAction.Argument>
-                        <Sequence sap:VirtualizedContainerService.HintSize="546,634" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                        <Sequence sap:VirtualizedContainerService.HintSize="496,672" sap2010:WorkflowViewState.IdRef="Sequence_10">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser 'msedge.exe'" sap:VirtualizedContainerService.HintSize="484,394" sap2010:WorkflowViewState.IdRef="BrowserScope_8" InformativeScreenshot="08868fe00e8a2e56a1b8d84bddb51609" Selector="&lt;html app='msedge.exe' title='cookieprovider.sicredi.com.br/siteminderagent/forms/login.fcc?*' /&gt;">
+                          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser 'msedge.exe'" sap:VirtualizedContainerService.HintSize="434,394" sap2010:WorkflowViewState.IdRef="BrowserScope_8" InformativeScreenshot="08868fe00e8a2e56a1b8d84bddb51609" Selector="&lt;html app='msedge.exe' url='https://cookieprovider.sicredi.com.br/*' /&gt;">
                             <ui:BrowserScope.Body>
                               <ActivityAction x:TypeArguments="x:Object">
                                 <ActivityAction.Argument>
@@ -228,7 +228,7 @@
                               </ActivityAction>
                             </ui:BrowserScope.Body>
                           </ui:BrowserScope>
-                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  ctl00_img_Atendi...'" sap:VirtualizedContainerService.HintSize="484,116" sap2010:WorkflowViewState.IdRef="Click_17" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  ctl00_img_Atendi...'" sap:VirtualizedContainerService.HintSize="434,116" sap2010:WorkflowViewState.IdRef="Click_17" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                             <ui:Click.CursorPosition>
                               <ui:CursorPosition Position="Center">
                                 <ui:CursorPosition.OffsetX>
@@ -253,7 +253,7 @@
                         </Sequence>
                       </ActivityAction>
                     </Catch>
-                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,21" sap2010:WorkflowViewState.IdRef="Catch`1_12">
+                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_12">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -264,13 +264,13 @@
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                         </ActivityAction.Argument>
-                        <Sequence sap:VirtualizedContainerService.HintSize="546,634" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                        <Sequence sap:VirtualizedContainerService.HintSize="496,672" sap2010:WorkflowViewState.IdRef="Sequence_46">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser 'msedge.exe'" sap:VirtualizedContainerService.HintSize="484,394" sap2010:WorkflowViewState.IdRef="BrowserScope_7" InformativeScreenshot="08868fe00e8a2e56a1b8d84bddb51609" Selector="&lt;html app='msedge.exe' title='cookieprovider.sicredi.com.br/siteminderagent/forms/login.fcc?*' /&gt;">
+                          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser 'msedge.exe'" sap:VirtualizedContainerService.HintSize="434,394" sap2010:WorkflowViewState.IdRef="BrowserScope_7" InformativeScreenshot="08868fe00e8a2e56a1b8d84bddb51609" Selector="&lt;html app='msedge.exe' title='cookieprovider.sicredi.com.br/siteminderagent/forms/login.fcc?*' /&gt;">
                             <ui:BrowserScope.Body>
                               <ActivityAction x:TypeArguments="x:Object">
                                 <ActivityAction.Argument>
@@ -308,7 +308,7 @@
                               </ActivityAction>
                             </ui:BrowserScope.Body>
                           </ui:BrowserScope>
-                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  ctl00_img_Atendi...'" sap:VirtualizedContainerService.HintSize="484,116" sap2010:WorkflowViewState.IdRef="Click_29" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  ctl00_img_Atendi...'" sap:VirtualizedContainerService.HintSize="434,116" sap2010:WorkflowViewState.IdRef="Click_29" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                             <ui:Click.CursorPosition>
                               <ui:CursorPosition Position="Center">
                                 <ui:CursorPosition.OffsetX>
@@ -438,7 +438,7 @@
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                           </ActivityAction.Argument>
-                          <Sequence sap:VirtualizedContainerService.HintSize="450,376" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                          <Sequence sap:VirtualizedContainerService.HintSize="450,394" sap2010:WorkflowViewState.IdRef="Sequence_47">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -530,13 +530,13 @@
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="ui:SelectorNotFoundException" Name="exception" />
                           </ActivityAction.Argument>
-                          <Sequence sap:VirtualizedContainerService.HintSize="512,634" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                          <Sequence sap:VirtualizedContainerService.HintSize="512,672" sap2010:WorkflowViewState.IdRef="Sequence_25">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence sap:VirtualizedContainerService.HintSize="450,550" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                            <Sequence sap:VirtualizedContainerService.HintSize="400,550" sap2010:WorkflowViewState.IdRef="Sequence_24">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1387,10 +1387,10 @@
         </ui:OpenBrowser>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="508,988" sap2010:WorkflowViewState.IdRef="Catch`1_16">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,21" sap2010:WorkflowViewState.IdRef="Catch`1_16">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -2617,6 +2617,6 @@
         </Catch>
       </TryCatch.Catches>
     </TryCatch>
-    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="542,142" sap2010:WorkflowViewState.IdRef="KillProcess_6" ProcessName="msedge.exe" />
+    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="1283,142" sap2010:WorkflowViewState.IdRef="KillProcess_6" ProcessName="msedge.exe" />
   </Sequence>
 </Activity>
